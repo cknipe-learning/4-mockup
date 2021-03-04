@@ -44,15 +44,15 @@ h1 {
 
 h2 {
   color: white;
-  font-size: 100%;
+  font-size: 105%;
   font-style: italic;
   font-weight: normal;
-  width: 12em;
+  width: 13em;
 }
 
 nav {
   background-color: rgb(235,235,235);
-  padding: 1em 15%;
+  padding: 1.7em 15%;
   font-size: 70%;
   font-weight: bold;
 }
@@ -61,6 +61,7 @@ nav a {
   text-decoration: none;
   color: rgb(57,57,57);
   font-size: 100%;
+  margin: 0 0.5em;
 }
 
 .content {
