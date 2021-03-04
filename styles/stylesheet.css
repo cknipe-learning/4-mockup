@@ -22,3 +22,61 @@ typography
 ** Work in logical steps, and when something looks good, commit
 
 */
+
+body {
+  font-family: sans-serif;
+  color: rgb(57,57,57);
+}
+
+header {
+  background-color: rgb(43,154,183);
+}
+
+.title-header {
+  padding: 1.5rem 0;
+
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+nav {
+  background-color: rgb(235,235,235);
+}
+
+nav a {
+  text-decoration: none;
+  font-style: italic;
+  color: rgb(57,57,57);
+}
+
+h4 {
+  color: rgb(43,154,183);
+}
+
+.blue-text {
+  color: rgb(82,185,212);
+}
+
+.pull-quote {
+  color: rgb(82,185,212);
+}
+
+aside a {
+  text-decoration: none;
+  color: rgb(82,185,212);
+}
+
+footer {
+  background-color: rgb(57,57,57);
+  text-align: center;
+}
+
+footer p {
+  color: white;
+}
