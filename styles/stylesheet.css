@@ -26,6 +26,7 @@ typography
 body {
   font-family: sans-serif;
   color: rgb(57,57,57);
+  margin: 0;
 }
 
 header {
@@ -33,30 +34,47 @@ header {
 }
 
 .title-header {
-  padding: 1.5rem 0;
-
+  padding: 2em 15%;
 }
 
 h1 {
   color: white;
+  margin: 0;
 }
 
 h2 {
   color: white;
+  font-size: 100%;
+  font-style: italic;
+  font-weight: normal;
+  width: 12em;
 }
 
 nav {
   background-color: rgb(235,235,235);
+  padding: 1em 15%;
+  font-size: 70%;
+  font-weight: bold;
 }
 
 nav a {
   text-decoration: none;
-  font-style: italic;
   color: rgb(57,57,57);
+  font-size: 100%;
+}
+
+.content {
+  padding: 15px 15% 50px 15%;
 }
 
 h4 {
   color: rgb(43,154,183);
+  font-size: 90%;
+  font-weight: bold;
+}
+
+p, a {
+  font-size: 11px;
 }
 
 .blue-text {
@@ -65,6 +83,13 @@ h4 {
 
 .pull-quote {
   color: rgb(82,185,212);
+  font-size: 100%;
+  font-weight: 500;
+  margin: 3em 0;
+}
+
+aside {
+ /* TODO */
 }
 
 aside a {
@@ -75,8 +100,23 @@ aside a {
 footer {
   background-color: rgb(57,57,57);
   text-align: center;
+  padding: 4em 0;
 }
 
 footer p {
   color: white;
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8em;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 1em;
+}
+
+.footer-logo {
+  width: 240px;
 }
