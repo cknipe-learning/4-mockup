@@ -110,6 +110,7 @@ aside img {
   /* QUESTION: Why doesn't this shrink the image to the width of the aside?
   object-fit: contain; */
   width: 220px;
+  margin: 20px 0 0 0;
 }
 
 footer {
