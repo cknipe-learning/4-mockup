@@ -85,6 +85,18 @@ h3 {
   font-size: 20px;
 }
 
+li {
+  margin: 5px 0 5px -30px;
+}
+
+span.service {
+  font-weight: bold;
+}
+
+span.cost {
+  color: rgb(43,154,183);
+}
+
 aside a {
   text-decoration: none;
   color: rgb(82,185,212);
